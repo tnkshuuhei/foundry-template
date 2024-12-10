@@ -14,6 +14,7 @@
     "solidity",
     "blockchain"
   ],
+  "private": true,
   "license": "MIT",
   "devDependencies": {
     "@nomicfoundation/hardhat-foundry": "^1.1.3",
