@@ -19,9 +19,10 @@
   "devDependencies": {
     "@nomicfoundation/hardhat-foundry": "^1.1.3",
     "@nomicfoundation/hardhat-toolbox": "^5.0.0",
-    "hardhat": "^2.22.17"
+    "hardhat": "^2.22.18"
   },
   "scripts": {
+    "setup": "pnpm install && forge install && cp .env.example .env",
     "clean": "rm -rf cache out",
     "build": "forge clean && forge build",
     "test": "forge clean && forge test",
