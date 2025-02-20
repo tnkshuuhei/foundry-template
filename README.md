@@ -5,8 +5,7 @@
 ```sh
 forge init --template tnkshuuhei/foundry-template my-project
 cd my-project
-forge install && pnpm install
-cp .env.example .env
+pnpm run setup
 ```
 
 This is a list of the most frequently needed commands.
